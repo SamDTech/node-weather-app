@@ -11,7 +11,6 @@ const forecast = (latitude, longitude, callback) =>{
             callback(undefined, 'the temperature is ' + check.temp + ', but the pressure  is ' + check.humidity)
         }
     })
-
 }
 
 module.exports = forecast;
